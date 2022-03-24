@@ -186,18 +186,40 @@ textarea{
 		height: 200px;
 	}
 }
-
-input#Female{
-margin-left: -284px;
-}
-
-input#Male{
-  margin-left: -300px;
-  }
-
-input#NB{
-    margin-left:-254px;
+    
+    /* Floating column for inputs: 75% width */
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
     }
 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .btn{
+      width: 100%;
+      padding: 0.5rem 1rem;
+      background-color: #2ecc71;
+      color: #fff;
+      font-size: 1.1rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: .3s;
+      border-radius: 7px;
+    }
+    
+    .btn:hover{
+        background-color: #27ae60;
+    }
+
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
     
 
